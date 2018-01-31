@@ -1,0 +1,18 @@
+<!--@subject Custom Form@-->
+<!--@vars {
+"var data.comment":"Comment",
+"var data.email":"Sender Email",
+"var data.name":"Sender Name"
+} @-->
+<table>
+   <tr>
+     <td>
+	   <table>
+			<tr><td>First Name:</td><td>{{trans "%fname" fname=$data.firstname}}</td></tr>
+			<tr><td>Last Name: </td><td>{{trans "%lname" lname=$data.lastname}}</td></tr>
+			<tr><td>Email:</td><td>{{trans "%email" email=$data.email}}</td></tr>
+			<tr><td>Telephone:</td><td>{{trans "%telephone" telephone=$data.telephone}}</td></tr>
+	   </table>
+   </td>
+   </tr>
+</table>

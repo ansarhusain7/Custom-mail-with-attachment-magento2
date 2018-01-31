@@ -1,0 +1,51 @@
+
+   <form id="competition-form" class="form-horizontal form warranty-form" method="post" enctype="multipart/form-data" action="<?php echo $block->getBaseUrl()?>customform/index/submit">
+      <div class="form-inner-container"> 
+        <div class="box"> 
+            <br>
+             <div class="step first-step">              
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 left-section">
+                <div class="first-block">
+                    <div class="form-group">
+                    <label for="firstname" class="col-lg-4 control-label">First Name*:</label>
+                                    <div class="input-field-box">
+                                        <input type="text" name="firstname" id="firstname" class="form-control address-required" placeholder="First Name" value="" tabindex="2">
+                                         <label id="firstname-error" class="error" for="name">This field is required.</label>
+                                    </div>
+                                   
+                    </div>              
+                    <div class="form-group">
+                        <label for="lastname" class="col-lg-4 control-label">Last Name*:</label>
+                        <div class="input-field-box">
+                            <input type="text" name="lastname" id="lastname" class="form-control address-required" placeholder="Last Name" value="" tabindex="3">
+                            <label id="lastname-error" class="error" for="name">This field is required.</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="telephone" class="col-lg-4 control-label">Telephone Number*:</label>
+                        <div class="input-field-box">
+                            <input type="text" name="telephone" id="telephone" class="form-control address-required" placeholder="Telephone" value="" tabindex="4">
+                            <label id="telephone-error" class="error" for="name">This field is required.</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="col-lg-4 control-label">Email Address*:</label>
+                        <div class="input-field-box">
+                            <input type="email" name="email" id="email" class="form-control address-required" placeholder="Email" value="" tabindex="5">
+                             <label id="email-error" class="error" for="name">This field is required.</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                            <label for="email" class="col-lg-4 control-label">Image:</label>
+                            <div class="input-field-box">
+                                   <input accept="image/*" name="document" accept=".jpg,.jpeg,.png" type="file" value="" />
+                            </div>
+                    </div>
+                </div>
+              
+            <div class="action-btn-row">              
+                  <button type="submit" id="competition-submit" class="action btn-hot text-capitalize submit btn">Submit</button>
+            </div>         
+      </div> 
+    </form>
+   
